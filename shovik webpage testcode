@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<form>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <form action ="/action.php">
+    <h1>PHOENIX COACHING </h1>
+
+    <img src ="https://t4.ftcdn.net/jpg/03/77/48/39/360_F_377483954_HwBtaIOf39J8clm5ldsFmN2K92bCyfd6.jpg" alt = "company logo" width="200"/>
+
+    <h3>Registration Form</h3>
+
+    <input type ="text" placeholder="username">
+    <br>
+
+    <br>
+    <label for ="email">Enter your email address:</label>
+    <br>
+    <input type ="email" id="email" name="email">
+    <br>
+    <input type ="password" placeholder="passsword">
+   
+    <br>
+    <h5>Select Your Class</h5>
+    <label for ="101">
+    <input type ="radio" value ="class XI"name="class"id="101">class XI
+     </label>
+       
+     <br>
+     <label for ="102">    
+    <input type ="radio" value ="class XII"name="class"id="102">class XII
+     </label>
+
+     <!--naming different label value helps to clicable the text , same value don't clicable
+    radio select one option
+      checkbox can select multiple option-->
+
+     <br>
+     <h5>Select your course</h5>
+     <label for ="103">    
+        <input type ="radio" value ="NEET"name="course"id="103">NEET
+         </label>
+     <br>
+         <label for ="104">    
+            <input type ="radio" value ="JEE"name="course"id="104">JEE
+             </label>
+     <br>
+     <h5>Select Your COURSE DURATION</h5>
+    <select name ="course">
+     <option value="6 Month">6 Month </option>
+     <option value="8 Month">8 Month </option>
+     <option value="12 Month">12 Month</option>
+     <option value="24 Month">24 Month</option>
+     </select> 
+     <br>
+     
+     <br>
+     <label for ="startmonth">Course Start Date</label>
+     <br>
+     <input type="month" id=" startcourse " name="startmonth">
+
+     <br>
+     <h5>Select Your City</h5>
+    <select name ="city">
+    <option value="DELHI">DELHI</option>
+    <option value="BANGALORE">BANGALORE</option>
+    <option value="PUNE">PUNE</option>
+    <option value="MUMBAI">MUMBAI</option>
+    <option value="CHENNAI">CHENNAI</option>
+    <option value="KOLKATA">CHENNAI</option>
+    </select>
+    <br>
+    <br>
+    <h5>Enter referral code</h5>
+    <input type ="text" placeholder="referral code">
+    <input type ="button" onclick="Applied" value="Apply">
+    <br>
+
+     <h5>You can ask your Query here</h5>
+    <textarea name ="Query" id="101"placeholder="please give your feedback here"rows=5>Ask your Query</textarea>
+    
+    <br>
+    <input type ="submit" value="Submit">
+    <input type ="reset" value="Reset">
+
+ 
+
+ </form>   
+</body>
+</html>
