@@ -81,7 +81,7 @@
     <br>
 
      <h5>You can ask your Query here</h5>
-    <textarea name ="Query" id="101"placeholder="please give your feedback here"rows=5>Ask your Query</textarea>
+    <textarea name ="Query" id="101"placeholder="ASK YOUR QUERY HERE"rows=5>Ask your Query</textarea>
     
     <br>
     <input type ="submit" value="Submit">
